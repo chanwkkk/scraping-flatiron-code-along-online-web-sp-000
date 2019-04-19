@@ -6,4 +6,4 @@ require 'pry'
 html = open("https://flatironschool.com/")
 doc = Nokogiri::HTML(html)
 binding.pry
-doc.css("text-block")
+doc.css(".text-block")
